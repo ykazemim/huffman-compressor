@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS := -std=c++17
 
-SRCDIR = .
+SRCDIR = src
 BUILDDIR = build
 SRCS = Main.cpp FileProcessor.cpp HuffmanBinaryTree.cpp Huffman.cpp Config.cpp
 OBJS = $(SRCS:%.cpp=$(BUILDDIR)/%.o)
